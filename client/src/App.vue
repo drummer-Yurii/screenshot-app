@@ -3,6 +3,15 @@
     <header>
       <h1>Take a screenshot</h1>
     </header>
+    <main>
+      <form @submit.prevent="">
+        <input type="url" name="url" id="url" />
+        <input type="submit" value="Take screenshot" />
+      </form>
+      <a href="#">
+        <img src="" />
+      </a>
+    </main>
   </div>
 </template>
 
